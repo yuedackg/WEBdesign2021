@@ -1,0 +1,7 @@
+１）29行目<h2>access</h2>タグの下に、
+　　googlemap「東京駅」を表示
+２）htmlにimgタグを使用して直接配置
+　　CSSにbackground-imageプロパティで配置
+３）tr th td タグの使用
+４）@media screen and (min-width:700px)で設定
+５）google-font　Cormorant Garamond
