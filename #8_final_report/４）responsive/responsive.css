@@ -1,11 +1,11 @@
-@media screen and (min-width:200px)  {
+@media screen  {
 
     main{
         background-color: blue;
     }
     
 }
-@media  screen and ( min-width:701px a) {
+@media  screen and ( min-width:700px a) {
     main{
         background-color: red;
     }
