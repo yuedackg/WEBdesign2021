@@ -1,3 +1,15 @@
+@media screen and (min-width:200px)  {
+
+    main{
+        background-color: blue;
+    }
+    
+}
+@media  screen and ( min-width:701px a) {
+    main{
+        background-color: red;
+    }
+}
 body{
 
 }

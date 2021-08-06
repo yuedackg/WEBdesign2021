@@ -1,0 +1,15 @@
+@media screen {
+    aside{
+        background-color: red;
+        border: solid pink 1px;
+        
+    }
+}
+@media screen and (min-width:1000px) {
+    aside {
+        
+        height: 100px;
+        border: solid 1px blue;
+        background-color: blue;
+    }
+}
