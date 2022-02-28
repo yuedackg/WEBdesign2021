@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>富士山登山と観光</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<<<<<<< HEAD:#8_0624/index2.html
+    <link
+        href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@900&family=Palette+Mosaic&family=RocknRoll+One&display=swap"
+=======
+    <link href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&family=Style+Script&display=swap"
+>>>>>>> 234fb76ce901baa47545d1bf7acdea84c115357a:#8_0624/old/index2.html
+        rel="stylesheet">
+
+    <style>
+        body {
+            background-color: lightcyan;
+            font-family: 'Palette Mosaic', cursive;
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+
+        header {
+            background-color: lightgoldenrodyellow;
+            width: 100%;
+            font-family: 'Palette Mosaic', cursive;
+        }
+
+        aside {
+            background-color: lightgreen;
+            width: 30%;
+            font-family: 'Style Script', cursive;
+        }
+
+        main {
+            background-color: lightsalmon;
+            width: 70%;
+        }
+
+        /* #aproach, #viewscine, #junbi, #kitaku{
+            display: none;
+
+        } */
+        #map p {
+            text-align: center;
+        }
+
+        section h1 {
+            border-bottom: solid 2px red;
+            border-left: solid 5px red;
+            padding: 5px;
+        }
+<<<<<<< HEAD:#8_0624/index2.html
+    </style>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+=======
+
+        img {
+            width: 300px;
+        }
+    </style>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+>>>>>>> 234fb76ce901baa47545d1bf7acdea84c115357a:#8_0624/old/index2.html
+
+</head>
+
+<body>
+    <header>
+        <h1>富士山の登山と観光について</h1>
+    </header>
+    <aside>
+        <h1 id="asideMap">地図（どこにあるかを地図で示す）</h1>
+        <h1 id="asideAproach">九州から富士山登山へのアプローチについて</h1>
+        <h1 id="asideViewscine">富士山登山の見どころ</h1>
+        <h1 id="asideJunbi">富士山登山で準備するもの</h1>
+        <h1 id="asideKitaku">帰宅について注意すること</h1>
+    </aside>
+    <main>
+
+        <section id="map">
+            <h1>
+                地図
+            </h1>
+            <p>
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10509.565864549173!2d138.7285693054034!3d35.36962220114947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6019629a42fdc899%3A0xa6a1fcc916f3a4df!2z5a-M5aOr5bGx!5e0!3m2!1sja!2sjp!4v1627874952092!5m2!1sja!2sjp"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            </p>
+            <p>富士山の地図を張り付ける</p>
+
+        </section>
+        <section id="aproach">
+            <h1>
+                九州から富士山登山へのアプローチについて
+            </h1>
+
+            <p>船で行く？新幹線で行く？飛行機とバスで行く？</p>
+<<<<<<< HEAD:#8_0624/index2.html
+            <img src="./images/MTF.jpg" alt="">
+
+            <p>新幹線で行く</p>
+            <img src="" alt="" srcset="">
+
+=======
+
+            <img src="./images/MTF.jpg" alt="" id="pic1">
+
+            <p>新幹線で行く</p>
+            <img src="./images/N700.jpg" alt="" srcset="" id="pic2">
+
+
+>>>>>>> 234fb76ce901baa47545d1bf7acdea84c115357a:#8_0624/old/index2.html
+            <p>飛行機とバスで行く</p>
+            <img src="./images/Boing737.jpg" alt="" srcset="">
+
+            <section id="viewscine">
+                <h1>
+                    富士山登山の見どころ
+                </h1>
+                <p>
+                    剣が峰
+                </p>
+
+            </section>
+            <section id="junbi">
+                <h1>
+                    富士山登山で準備するもの
+                </h1>
+                <p>
+                    ジャージ
+                </p>
+
+            </section>
+            <section id="kitaku">
+                <h1>
+                    帰宅について注意すること
+                </h1>
+                <p>
+                    疲れているときに事故は起きる
+                </p>
+
+            </section>
+    </main>
+    <script>
+        $("section").hide();
+        $("#map").show();
+        $("#asideAproach").on("click", function () {
+            $("section").hide();
+            $("#aproach").show();
+        });
+        $("#asideViewscine").on("click", function () {
+            // alert("見どころ")
+            $("section").hide();
+            $("#viewscine").show();
+
+        });
+        $("#asideJunbi").on("click", function () {
+            $("section").hide();
+            $("#junbi").show();
+
+        });
+        $("#asideKitaku").on("click", function () {
+            $("section").hide();
+            $("kitaku").show();
+
+        });
+
+
+    </script>
+
+</body>
+
+</html>
