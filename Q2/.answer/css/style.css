@@ -1,0 +1,107 @@
+﻿@charset "utf-8";
+
+/* 基本レイアウト ここから↓ */
+@import url(common.css);
+header {
+	width: 800px;
+	height: 70px;
+	margin: 20px auto 40px auto;
+	position: relative;
+}
+header h1 {
+	margin : 0;
+	position: absolute;
+}
+nav {
+	position: absolute;
+	right: 0;
+}
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+	display: flex;
+}
+nav ul li {
+
+}
+nav ul li a:hover {
+	opacity: 0.7;
+}
+footer {
+	margin-bottom: 0;
+	padding: 14px 0 14px 0;
+	background-image: url(../images/bg_footer.png);
+	background-repeat: repeat-x;
+
+}
+#footer{
+	width: 485px;
+	margin: 0px auto;
+	display: flex;
+}
+
+#main h1 {
+	background-image: url(../images/h1.png);
+	background-repeat: no-repeat;
+	padding: 8px 0 3px 40px;
+	margin: 0 0 20px 0;
+	font-size: 162%;
+}
+/* 基本レイアウト ここまで↑ */
+
+/* 「施設のご案内」ページ ここから↓ */
+img.float_right {
+	margin-bottom: 20px;
+	margin-left: 20px;
+	float: right;
+}
+.float_clear {
+	clear: both;
+}
+article ul {
+	list-style-type: circle;
+}
+/* 「施設のご案内」ページ ここまで↑ */
+
+/* 「料金プラン」ページ ここから↓ */
+table {
+	width: 568px;
+	margin-bottom: 20px;
+	border-collapse: collapse;
+}
+table caption {
+	text-align: left;
+}
+table th, table td {
+	border: 1px solid #7aa7a2;
+	padding: 10px;
+	width: 190px;
+	text-align: center;
+}
+table th {
+	background-color: #cce8e4;
+}
+table .price {
+	width: 125px;
+}
+table td.price {
+	text-align: right;
+}
+/* 「料金プラン」ページ ここまで↑ */
+
+/* 「ご意見・ご要望」ページ ここから↓ */
+form {
+	margin-top: 30px;
+}
+input.textfield, textarea {
+	border: 1px solid #d1ccb4;
+}
+input.textfield {
+	width: 250px;
+}
+textarea {
+	width: 500px;
+	height: 170px;
+	overflow-y: scroll;
+}
+/* 「ご意見・ご要望」ページ ここまで↑ */
