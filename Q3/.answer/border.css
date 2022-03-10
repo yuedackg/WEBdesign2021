@@ -1,0 +1,4 @@
+body, header,nav,aside,footer{
+	border: solid 1px blue;
+	box-sizing: border-box;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Fruitu Home page</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="ueda-rev0.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="globalsettings.css">
+	<!-- <link rel="stylesheet" href="border.css"> -->
+	<style>
+
+		body {
+			width: var(--display-size);
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+		}
+		header {
+			height: 70px;
+			margin: 20px auto 40px auto;
+			box-sizing: border-box;
+		}
+		main {
+			box-sizing: border-box;
+			width: var(--display-size);
+		}
+		aside {
+			width: 200px;
+			box-sizing: border-box;
+		}
+		footer {
+			margin-bottom: 20px;
+			background-image: url(./images/bg_footer.png);
+			width: 100%;
+		}
+
+	</style>
+</head>
+
+<body>
+	<header>
+		<a href="home.html"><img src="./images/logo.png" alt=""></a>
+
+		<ul class="nav-menu">
+			<li><img src="./images/nav1.png" alt=""></li>
+			<li><img src="./images/nav2.png" alt=""></li>
+			<li><img src="./images/nav3.png" alt=""></li>
+
+		</ul>
+
+	</header>
+	<main>
+		<section class="start-section">
+			<div class="main-content">
+				<img src="./images/main-background.png" alt="">
+				<div class="centerbox">
+					<p>
+						果物と野菜の本当のおいしさを<br>
+						皆様にお届けする”fruvege”です。<br>
+						自然の恵みを生かした生産方式で育てた<br>
+						フルーツとベジタブルを皆様にご提供いたします。
+					</p>
+				</div>
+			</div>
+
+			<aside>
+				<a href="info.html"><img src="./images/bnr_info.png" alt=""></a>
+				<a href="opinion.html"><img src="./images/bnr_opinion.png" alt=""></a>
+			</aside>
+		</section>
+		<section class="sec-fruits">
+			<h2>fresh seasonal fruits</h2>
+			<div class="itembox">
+				<img src="./images/f01.png" alt="">
+				<h2>ミニトマト</h2>
+				<h2>tomato</h2>
+				<div>
+					果実は直径2～3センチメートルの球形で皮はやや硬いが甘味が多く，料理の飾りに最適です。
+				</div>
+			</div>
+			<div class="itembox">
+				<img src="./images/f02.png" alt="">
+				<h2>パプリカ</h2>
+				<h2>paprika</h2>
+				<div>
+					肉厚で甘味があり、栄養価も高い。ビタミンCが豊富で疲労回復にも効果がある。
+				</div>
+			</div>
+			<div class="itembox">
+				<img src="./images/f03.png" alt="">
+				<h2>万願寺とうがらし</h2>
+				<h2>manganji pepper</h2>
+				<div>
+					京都府舞鶴市が発祥の京野菜。果肉が大きくて分厚く柔らかく甘みがある。
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<footer>
+		<div>
+			Copyright 2022 fruvege All rights reserved.
+		</div>
+
+	</footer>
+</body>
+<script>
+	$(function () {
+		$(".nav-menu li").eq(0).click(function () {
+			$("section").hide()
+			$("section").eq(1).show()
+
+		})
+	})
+</script>
+
+</html>

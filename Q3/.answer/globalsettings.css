@@ -1,0 +1,14 @@
+
+:root {
+	--display-size: 850px;
+	--nav-item-size: 173px;
+	--delete-left-space: -5px;
+
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+
+}
+
