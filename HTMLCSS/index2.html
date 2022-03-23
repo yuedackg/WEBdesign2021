@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		* {
+			margin: 0px;
+			padding: 0px;
+			/* border: 1px red solid; */
+
+		}
+
+		:root{
+			--color-kannnawa: red;
+			--color-hita:blue;
+			--color-yuhira:green;
+			--color-houjouji:orange;
+			--color-yuhuin:magenta;
+			--base-color:pink;
+
+		}
+		body {
+			width: 800px;
+			display: flex;
+			flex-wrap: wrap;
+			margin: 0 auto;
+			background-color: var(--base-color);
+		}
+
+		body img {
+			width: 100%;
+			box-sizing: border-box;
+		}
+
+		header {
+			margin-top: 20px;
+			width: 100%;
+
+		}
+
+		nav {
+			box-sizing: border-box;
+			width: 200px;
+
+		}
+
+		nav ul {
+			margin-left: 10px;
+			list-style-type: none;
+
+		}
+
+		nav li {
+			padding: 5px;
+			font-weight: bold;
+
+		}
+		nav li:nth-child(1){
+			color: var(--color-kannnawa);
+
+		}
+		nav li:nth-child(2){
+			color: var(--color-hita);
+		}
+		nav li:nth-child(3){
+			color: var(--color-yuhira);
+		}
+		nav li:nth-child(4){
+			color: var(--color-houjouji);
+		}
+		nav li:nth-child(5){
+			color: var(--color-yuhuin );
+		}
+
+		main {
+			width: calc(100% - 200px);
+			box-sizing: border-box;
+		}
+
+		main h1 {
+			font-size: 20pt;
+			color: var(--color-kannnawa);
+			font-weight: 900;
+
+		}
+
+		main h2 {
+			font-size: 15pt;
+			color: rgb(13, 66, 25);
+			background-color: lightskyblue;
+		}
+
+		.item {
+			display: flex;
+			flex-wrap: wrap;
+			margin-top: 10px;
+
+		}
+
+		.item h2 {
+			width: 100%;
+
+		}
+
+		.item img {
+			box-sizing: border-box;
+			width: 40%;
+			padding: 10px;
+
+		}
+
+		.item div {
+			box-sizing: border-box;
+			width: 60%;
+			padding: 5px;
+
+		}
+	</style>
+</head>
+
+
+<body>
+
+	<header>
+		<img src="./images/title.jpg" alt="">
+	</header>
+	<nav>
+		<h1>大分の温泉地</h1>
+		<ul>
+			<li>鉄輪温泉</li>
+			<li>日田温泉</li>
+			<li>湯平温泉</li>
+			<li>法成寺温泉</li>
+			<li>湯布院温泉</li>
+
+		</ul>
+	</nav>
+	<main>
+		<section>
+			<h1>鉄輪温泉</h1>
+			<div class="item">
+				<h2>温泉の効能</h2>
+				<img src="./images/kannawa1.jpg" alt="">
+				<div>
+					鉄輪温泉（かんなわおんせん）は、大分県別府市（旧国豊後国速見郡）にある温泉で、別府八湯の一つ。温泉の湧出量では日本最大である別府の源泉の大半が鉄輪に集中している。湯治場の面影を濃く残し、レトロな町並みと別府地獄めぐりの多くが鉄輪温泉にある。
+				</div>
+			</div>
+			<div class="item">
+				<h2>別府鉄輪の湯治宿 - 柳屋</h2>
+				<img src="./images/kannawa2.jpg" alt="">
+				<div>
+					別府八湯のひとつ、鉄輪（かんなわ）は、
+					古き良き湯治場の雰囲気が今なお残るまち。
+					ここで明治時代から続く伝統ある宿を受け継ぎ、
+					アートの息吹を吹き込んだ大人の居場所が、
+					「サリーガーデンの宿　湯治柳屋」です。
+				</div>
+			</div>
+		</section>
+	</main>
+</body>
+
+</html>
